@@ -15,25 +15,31 @@ body {
 
 .container {
     width: 100%;
-    max-width: 500px; /* MÁS ANCHO */
-    text-align: center;
+    max-width: 360px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .logo img {
-    width: 180px;
-    margin-bottom: 25px;
+    width: 85%;
+    max-width: 280px;
+    height: auto;
 }
 
 .card {
-    background: #f9fafb; /* ya no blanco */
-    padding: 40px 30px;
+    background: #f9fafb;
+    padding: 45px 25px;
     border-radius: 20px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .card h2 {
+    text-align: center;
     margin-bottom: 25px;
-    font-size: 26px;
 }
 
 .card input,
@@ -43,12 +49,6 @@ body {
     margin-bottom: 18px;
     border-radius: 10px;
     border: 1px solid #ccc;
-    font-size: 15px;
-}
-
-.card input:focus {
-    border-color: #6366f1;
-    outline: none;
 }
 
 .card button {
@@ -59,22 +59,17 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
     font-weight: bold;
 }
 
-.card button:hover {
-    opacity: 0.9;
-}
-
 .links {
-    margin-top: 18px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .links a {
-    font-size: 14px;
+    font-size: 13px;
     color: #4f46e5;
     text-decoration: none;
 }
@@ -82,5 +77,6 @@ body {
 .message {
     margin-top: 15px;
     color: #16a34a;
-    font-size: 14px;
+    font-size: 13px;
+    text-align: center;
 }
